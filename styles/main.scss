@@ -1,0 +1,103 @@
+@import './shared/fonts';
+
+// Components
+@import './components/header';
+
+// Pages
+@import './index';
+@import './portfolios';
+@import './portfolio';
+@import './blogs';
+@import './about';
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', 'Helvetica' !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.base-page {
+  padding: 150px 0;
+  color: black;
+  background-color: #ecedee;
+  min-height: 100vh;
+
+  .page-header-title {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+}
+
+.absolute {
+  position: absolute;
+}
+
+.self-typed {
+  font-size: 31px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+  // .parent-class {
+  //   h1 {
+  //     color: blue;
+  //   }
+  //   h2{
+  //     color: red;
+  //   }
+  // }
+
+  // .parent-class{
+  //   .child-class {
+  //     font-weight: bold;
+  //   }
+  // }
+
+// .parent-class
+//   {
+//     &.sibling-class{
+//     .child-class {
+//       font-weight: bold;
+//     }
+//   }
+// }
+
+// .parent-class
+//   {
+//     &.sibling-class{
+//           h1 {
+//             font-weight: bold;
+//           }
+//           h2{
+//             font-size: 50px;
+//           }
+//   }
+// }
+
+// .parent-class {
+//   &-title{
+//     color: red;
+//   }
+
+//   &-date {
+//     color: blue;
+//   }
+// }
+
+.avatar-box {
+  img{
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .subtitle{
+    font-size: 14px;
+  }
+}
