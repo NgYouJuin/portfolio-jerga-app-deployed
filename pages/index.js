@@ -1,6 +1,6 @@
 import {useGetUser} from '@/actions/user'
 import { useState , useRef, useEffect} from 'react';
-import BaseLayout from '@/components/layouts/BaseLayout';
+import BaseLayout from '@/components/Layouts/BaseLayout';
 import { Container, Row, Col } from 'reactstrap';
 import Typed from "react-typed";
 import BasePage from 'components/BasePage';

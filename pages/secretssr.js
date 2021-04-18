@@ -1,4 +1,4 @@
-import BaseLayout from '@/components/layouts/BaseLayout';
+import BaseLayout from '@/components/Layouts/BaseLayout';
 import BasePage from '@/components/BasePage';
 import {withAuth} from '@/utils/auth0'
 
